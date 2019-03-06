@@ -1,11 +1,11 @@
 # Voiceit API 2.0 React Native Demo and Module
 
-The react-native module uses the Android and IOS SDKs to provide voice, video, and face enrollment/verification/identification functionalities that can be easily implemented in react native projects. Please look at the SDKs for <a href="https://github.com/voiceittech/VoiceItApi2AndroidSDK">Andoird</a> or <a href="https://github.com/voiceittech/VoiceItApi2AndroidSDK">IOS</a> for further information
+This react-native module uses our Android and iOS SDKs to provide voice, video, and face enrollment/verification/identification functionality that can be easily implemented in React Native projects. Please look at the <a href="https://github.com/voiceittech/VoiceItApi2AndroidSDK">Android</a> and <a href="https://github.com/voiceittech/VoiceItApi2AndroidSDK">iOS</a> SDKs for further information.
 
 * [Demo](#demo)
      * [Screenshots](#screenshots)
           * [Android](#android)
-          * [IOS](#ios)
+          * [iOS](#ios)
   * [Credentials](#credentials)
   * [Configuration](#configuration)
   * [Running the Demo](#running-the-demo)
@@ -17,7 +17,7 @@ The react-native module uses the Android and IOS SDKs to provide voice, video, a
             * [Initialize Module](#initialize-the-module)
         * [Encapsulated Action Methods](#encapsulated-action-methods)
         * [API Wrapper Methods](#api-wrapper-methods)
-    * [IOS](#ios-module)
+    * [iOS](#ios-module)
 
 ## Demo 
 ### Screenshots 
@@ -32,15 +32,15 @@ The react-native module uses the Android and IOS SDKs to provide voice, video, a
 Coming soon!
 ### Credentials
 Before unpacking the repo, please make sure to create a Developer account at https://voiceit.io/signup. Upon completion,
-login and navigate to the "Settings tab" to view your Api Key and Token, both of which will be needed later on. Also, navigate to the "User Management" tab and click "Create a User". This will create a user with a User ID which will be used later on for the examples.
+login and navigate to the "Settings tab" to view your API Key and Token, both of which will be needed later on. Then navigate to the "User Management" tab and click "Create a User". This will create a user with a User ID which will be used later in the examples.
 ### React Native CLI
-Please make sure you have Node JS isntalled. We can use npm to easily get the react-native cli: 
+Please make sure you have Node JS installed. You can use npm to easily get the react-native cli: 
 ```
 npm install -g react-native-cli
 ```
 This is required to pack and run the application.
 ### Configuration
-Please open thie file App.js, inside the root folder voiceItReactNative. From line 9 onwards, edit the options object to add details such as your api key and token, user id you are testing for, a group id, content language, and phrase: 
+Inside the root folder voiceItReactNative, please open the file App.js. From line 9 onwards, edit the options object to add details such as your API key and token, user id, group id, content language, phrase, and liveness boolean: 
 ```
 const options = {
   user_id: "USER_ID_HERE",
@@ -60,19 +60,18 @@ npm install
 Please connect your device to your machine. 
 <ul>
  <li>Android: 
-  Please make sure you have the <a href="https://developer.android.com/studio/">Android developement environemnt set up</a>, and Android SDK 9 (Pie) installed.
+  Please make sure you have the <a href="https://developer.android.com/studio/">Android development environment set up</a>, and Android SDK 9 (Pie) installed.
 From the main project folder, run the applicaion by typing this in terminal/cmd
   
 ```
 react-native run-android 
 ```
 
-<li>IOS:
+<li>iOS:
     Coming Soon!
 
  </li>
 </ul>
-
 
 
 ### Incorporating the Module
@@ -80,10 +79,10 @@ react-native run-android
 #### Android Module
 
 ##### Get the Module
-Since react native compiles into native android code, the voiceiteReactNative Android library/Module has to be used. Please open the android project folder in android studio; $your_project_root_folder/android. We recommend using <a href="https://jitpack.io/#hismaeel/VRNA">Jitpack</a> <br>
+Since React Native compiles into native Android code, the voiceitReactNative Android library/Module has to be used. Please open the Android project folder in Android Studio; $your_project_root_folder/android. We recommend using <a href="https://jitpack.io/#voiceittech/VoiceIt2ReactNativeSDK">Jitpack</a> <br>
 
 ##### Initialize Module
-After getting the module through jutpack, natigate to app/src/main/java/$package_name/MainApplication. Look for the method getPackages(), which should look something like this: 
+After getting the module through jitpack, navigate to app/src/main/java/$package_name/MainApplication. Look for the method getPackages(), which should look something like this: 
 ```
     @Override
     protected List<ReactPackage> getPackages() {
@@ -93,163 +92,160 @@ After getting the module through jutpack, natigate to app/src/main/java/$package
               new voiceItPackage());
     }
  ```
-  Add initialize a new instance of the voiceItPackage, as shown above. This will initilize the native methods in the module. 
+  Initialize a new instance of the voiceItPackage, as shown above. This will initilize the native methods in the module. 
  
 ##### Access Module methods
-To access the module methods, naviagte to $Your_Project_Root/App.js. The Module will be wrapped up inside react native's built-in <a href="https://facebook.github.io/react-native/docs/native-modules-ios"> Native Modules</a> object. 
+To access the module methods, navigate to $Your_Project_Root/App.js. The Module will be wrapped up inside React Native's built-in <a href="https://facebook.github.io/react-native/docs/native-modules-android"> Native Modules</a> object. 
 Inside App.js, import the Native Modules: 
 ```
 import {NativeModules} from 'react-native';
 ```
-We recommending creating an instance of the Voice It Module; 
+We recommending creating an instance of the VoiceIt Module; 
 ```
 const voiceItModule = NativeModules.VoiceIt;
 ```
 ###### Initialize the Module 
 ```
-voiceItModule.initVoiceIt("API_KEY_HERE", "API_KEY_HERE");
+voiceItModule.initVoiceIt("API_KEY_HERE", "API_TOKEN_HERE");
 ```
 ##### Encapsulated Action Methods 
 
 ###### Start Voice Enrollment
 ```
 voiceItModule.encapsulatedVoiceEnrollment("USER_ID", "CONTENT_LANGUAGE", "PHRASE", (res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Start Voice Verification
 ```
 voiceItModule.encapsulatedVoiceVerification("USER_ID", "CONTENT_LANGUAGE", "PHRASE", (res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Start Voice Identification 
 ```
 voiceItModule.encapsulatedVoiceIdentification("GROUP_ID", "CONTENT_LANGUAGE", "PHRASE", (res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 
 ###### Start Face Enrollment
 ```
 voiceItModule.encapsulatedFaceEnrollment("USER_ID",(res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Start Face Verification
 ```
 voiceItModule.encapsulatedFaceVerification("USER_ID", LIVENESS_BOOLEAN, (res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 
 ###### Start Face Identification 
 ```
 voiceItModule.encapsulatedFaceIdentification("GROUP_ID", LIVENESS_BOOLEAN, (res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 
 ###### Start Video Enrollment
 ```
 voiceItModule.encapsulatedVideoEnrollment("USER_ID", "CONTENT_LANGUAGE", "PHRASE", (res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 
 ###### Start Video Verification
 ```
 voiceItModule.encapsulatedVideoVerification("USER_ID", "CONTENT_LANGUAGE", LIVENESS_BOOLEAN, "PHRASE", (res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 
 ###### Start Video Identification 
 ```
 voiceItModule.encapsulatedVideoIdentification("GROUP_ID", "CONTENT_LANGUAGE", LIVENESS_BOOLEAN, "PHRASE", (res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 
 ##### API Wrapper Methods
-This is an incomplete List. For a list of all methods, please look at the <a href="https://github.com/voiceittech/VoiceItApi2AndroidSDK#user-api-calls"> Android SDK</a> documentation
+For a list of all methods, please look at the <a href="https://api.voiceit.io"> API Documentation</a> 
 
 ###### Get All Users 
 ```
 voiceItModule.getAllUsers(res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Create User
 ```
 voiceItModule.createUser(res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Check User Exists
 ```
 voiceItModule.checkUserExists("USER_ID_HERE", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Delete user 
 ```
 voiceItModule.deleteUser("USER_ID_HERE", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Get Groups For User
 ```
 voiceItModule.getGroupsForUser("USER_ID_HERE", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Get All Groups 
 ```
 voiceItModule.deleteUser(res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Get Group 
 ```
 voiceItModule.getGroup("USER_ID_HERE", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Check Group Exists 
 ```
 voiceItModule.groupExists("USER_ID_HERE", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Create Group 
 ```
 voiceItModule.createGroup("GROUP_DESCRIPTION", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Add User to Group
 ```
 voiceItModule.addUserToGroup("GROUP_ID","USER_ID", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 
 ###### Remove User From Group
 ```
 voiceItModule.removeUserFromGroup("GROUP_ID","USER_ID", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
 ###### Delete group
 ```
 voiceItModule.deleteGroup("GROUP_ID_HERE", res)=>{
-    //This is the Callback. Handle result here }
-);
+    //This is the Callback. Handle result here 
+    });
 ```
-
-
-
 
 
 #### IOS Module
