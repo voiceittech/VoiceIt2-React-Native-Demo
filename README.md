@@ -1,4 +1,4 @@
-# Voiceit API 2.0 React Native Demo and Module
+# Beta - Voiceit API 2.0 React Native Demo and Module
 
 This react-native module uses our Android and iOS SDKs to provide voice, video, and face enrollment/verification/identification functionality that can be easily implemented in React Native projects. Please look at the <a href="https://github.com/voiceittech/VoiceItApi2AndroidSDK">Android</a> and <a href="https://github.com/voiceittech/VoiceItApi2AndroidSDK">iOS</a> SDKs for further information.
 
