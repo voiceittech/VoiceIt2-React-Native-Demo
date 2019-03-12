@@ -40,7 +40,12 @@ npm install -g react-native-cli
 ```
 This is required to pack and run the application.
 ### Configuration
-Inside the root folder voiceItReactNative, please open the file App.js. From line 9 onwards, edit the options object to add details such as your API key and token, user id, group id, content language, phrase, and liveness boolean: 
+If you do not have an ANDROID_HOME environment variable, then in the root directory create the file android/local.properties and add a line like below, pointing to your Android SDK installation:
+```
+sdk.dir=/Users/USER_NAME_HERE/Library/Android/sdk
+```
+
+Inside the root folder, please open the file App.js. From line 9 onwards, edit the options object to add details such as your API key and token, user id, group id, content language, phrase, and liveness boolean: 
 ```
 const options = {
   user_id: "USER_ID_HERE",
@@ -79,10 +84,10 @@ react-native run-android
 #### Android Module
 
 ##### Get the Module
-Since React Native compiles into native Android code, the voiceitReactNative Android library/Module has to be used. Please open the Android project folder in Android Studio; $your_project_root_folder/android. We recommend using <a href="https://jitpack.io/#voiceittech/VoiceIt2ReactNativeSDK">Jitpack</a> <br>
+We recommend using <a href="https://jitpack.io/#voiceittech/VoiceIt2ReactNativeSDK">Jitpack</a> <br> Then you can open the Android project folder in Android Studio; $your_project_root_folder/android. 
 
 ##### Initialize Module
-After getting the module through jitpack, navigate to app/src/main/java/$package_name/MainApplication. Look for the method getPackages(), which should look something like this: 
+Navigate to app/src/main/java/$package_name/MainApplication. Look for the method getPackages(), which should look something like this: 
 ```
     @Override
     protected List<ReactPackage> getPackages() {
@@ -92,7 +97,7 @@ After getting the module through jitpack, navigate to app/src/main/java/$package
               new voiceItPackage());
     }
  ```
-  Initialize a new instance of the voiceItPackage, as shown above. This will initilize the native methods in the module. 
+Initialize a new instance of the voiceItPackage, as shown above. This will initialize the native methods in the module. 
  
 ##### Access Module methods
 To access the module methods, navigate to $Your_Project_Root/App.js. The Module will be wrapped up inside React Native's built-in <a href="https://facebook.github.io/react-native/docs/native-modules-android"> Native Modules</a> object. 
