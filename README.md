@@ -40,12 +40,12 @@ npm install -g react-native-cli
 ```
 This is required to pack and run the application.
 ### Configuration
-If you do not have an ANDROID_HOME environment variable, then in the root directory create the file android/local.properties and add a line like below, pointing to your Android SDK installation:
+If you do not have an ANDROID_HOME environment variable, create the file "local.properties" in the android/ directory and add a line like below, pointing to your Android SDK installation:
 ```
 sdk.dir=/Users/USER_NAME_HERE/Library/Android/sdk
 ```
 
-Inside the root folder, please open the file App.js. From line 9 onwards, edit the options object to add details such as your API key and token, user id, group id, content language, phrase, and liveness boolean: 
+Inside the root directory, please open the file App.js. From line 9 onwards, edit the options object to add details such as your API key and token, user id, group id, content language, phrase, and liveness boolean: 
 ```
 const options = {
   user_id: "USER_ID_HERE",
@@ -58,7 +58,7 @@ const options = {
   };
   ```
 ### Running the Demo
-After the configuration step, open terminal/cmd and cd into the folder voiceItReactNative. We have to install the react-native modules before running the application. Type: 
+After the configuration step, open terminal/cmd and cd into the root directory. We have to install the react-native modules before running the application. Type: 
 ```
 npm install
 ```
@@ -84,7 +84,7 @@ react-native run-android
 #### Android Module
 
 ##### Get the Module
-We recommend using <a href="https://jitpack.io/#voiceittech/VoiceIt2ReactNativeSDK">Jitpack</a> <br> Then you can open the Android project folder in Android Studio; $your_project_root_folder/android. 
+The module is available on <a href="https://jitpack.io/#voiceittech/VoiceIt2ReactNativeSDK">Jitpack</a> <br> You can open the Android project folder in Android Studio; $your_project_root_folder/android. 
 
 ##### Initialize Module
 Navigate to app/src/main/java/$package_name/MainApplication. Look for the method getPackages(), which should look something like this: 
