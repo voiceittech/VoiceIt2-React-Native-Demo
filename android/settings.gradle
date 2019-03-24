@@ -1,3 +1,5 @@
 rootProject.name = 'voiceItReatNative'
+include ':voiceit-react-native'
+project(':voiceit-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/voiceit-react-native/android')
 
-include ':app', ':voiceit'
+include ':app', ':voiceit-react-native'
