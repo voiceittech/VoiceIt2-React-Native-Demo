@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/voiceItReatNative.iml" filepath="$PROJECT_DIR$/voiceItReatNative.iml" />
-      <module fileurl="file://$PROJECT_DIR$/voiceit/voiceit.iml" filepath="$PROJECT_DIR$/voiceit/voiceit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Voiceit/android/voiceit-react-native.iml" filepath="$PROJECT_DIR$/../Voiceit/android/voiceit-react-native.iml" />
     </modules>
   </component>
 </project>

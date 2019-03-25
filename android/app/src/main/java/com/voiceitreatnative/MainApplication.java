@@ -4,6 +4,9 @@ import android.app.Application;
 
 import com.facebook.react.BuildConfig;
 import com.facebook.react.ReactApplication;
+import com.reactlibrary.RNVoiceitPackage;
+import com.reactlibrary.RNVoiceitPackage;
+import com.reactlibrary.RNVoiceitPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -11,8 +14,6 @@ import com.facebook.soloader.SoLoader;
 
 import java.util.Arrays;
 import java.util.List;
-
-import voiceit.com.voiceit.voiceItPackage;
 
 
 public class MainApplication extends Application implements ReactApplication {
@@ -27,7 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-              new voiceItPackage());
+            new RNVoiceitPackage());
     }
 
     @Override
