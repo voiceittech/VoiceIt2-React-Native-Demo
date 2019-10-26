@@ -514,54 +514,6 @@ public class VoiceIt extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void deleteVoiceEnrollment(String userId, String enrollmentId, final Callback callback){
-        myVoiceIt.deleteVoiceEnrollment(userId, enrollmentId,  new JsonHttpResponseHandler(){
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                callback.invoke(response.toString());
-            }
-            @Override
-            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-                if (errorResponse != null) {
-                    callback.invoke(errorResponse.toString());
-                }
-            }
-        });
-    }
-
-    @ReactMethod
-    public void deleteFaceEnrollment(String userId, String enrollmentId, final Callback callback){
-        myVoiceIt.deleteFaceEnrollment(userId, enrollmentId,  new JsonHttpResponseHandler(){
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                callback.invoke(response.toString());
-            }
-            @Override
-            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-                if (errorResponse != null) {
-                    callback.invoke(errorResponse.toString());
-                }
-            }
-        });
-    }
-
-    @ReactMethod
-    public void deleteVideoEnrollment(String userId, String enrollmentId, final Callback callback){
-        myVoiceIt.deleteVoiceEnrollment(userId, enrollmentId,  new JsonHttpResponseHandler(){
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                callback.invoke(response.toString());
-            }
-            @Override
-            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-                if (errorResponse != null) {
-                    callback.invoke(errorResponse.toString());
-                }
-            }
-        });
-    }
-
-    @ReactMethod
     public void createVoiceEnrollment(String userId, String contentLanguage, String phrase, String path, final Callback callback){
         File video = new File(path);
         if (!video.exists()){
