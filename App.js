@@ -6,12 +6,12 @@ import logo from "./res/logo.png";
 
 const voiceItModule = NativeModules.Voiceit2ReactNative;
 const options = {
-  user_id: "usr_e1db79901fd0418781dfc9c22ec48df4",
+  user_id: "USER_ID_HERE",
   group_id: "GROUP_ID_HERE",
-  content_language: "EN_US",
+  content_language: "LANG_CODE_HERE",
   phrase: "Tomorrow is a good day to go for a walk",
-  apiKey: "key_204413831ca34dc7a692338260eb41ea",
-  apiToken: "tok_b855f16643e74b88b2dc50d8b681d4e2",
+  apiKey: "API_KEY_HERE",
+  apiToken: "API_TOKEN_HERE",
   liveness: false
   };
 voiceItModule.initVoiceIt(options.apiKey, options.apiToken);
