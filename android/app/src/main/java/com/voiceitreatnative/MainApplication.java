@@ -4,9 +4,8 @@ import android.app.Application;
 
 import com.facebook.react.BuildConfig;
 import com.facebook.react.ReactApplication;
-import com.reactlibrary.RNVoiceitPackage;
-import com.reactlibrary.RNVoiceitPackage;
-import com.reactlibrary.RNVoiceitPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
+import com.reactlibrary.Voiceit2ReactNativePackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -28,7 +27,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNVoiceitPackage());
+            new VectorIconsPackage(),
+            new Voiceit2ReactNativePackage());
     }
 
     @Override

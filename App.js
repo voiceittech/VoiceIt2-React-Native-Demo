@@ -4,14 +4,14 @@ import React, {Component} from 'react';
 import {Platform, TouchableOpacity,StyleSheet, Image, Text, View} from 'react-native';
 import logo from "./res/logo.png";
 
-const voiceItModule = NativeModules.VoiceIt;
+const voiceItModule = NativeModules.Voiceit2ReactNative;
 const options = {
-  user_id: "USER_ID_HERE",
+  user_id: "usr_e1db79901fd0418781dfc9c22ec48df4",
   group_id: "GROUP_ID_HERE",
-  content_language: "CONTENT_LANGUAGE",
-  phrase: "PHRASE_HERE",
-  apiKey: "KEY_HERE",
-  apiToken: "TOKEN_HERE",
+  content_language: "EN_US",
+  phrase: "Tomorrow is a good day to go for a walk",
+  apiKey: "key_204413831ca34dc7a692338260eb41ea",
+  apiToken: "tok_b855f16643e74b88b2dc50d8b681d4e2",
   liveness: false
   };
 voiceItModule.initVoiceIt(options.apiKey, options.apiToken);
