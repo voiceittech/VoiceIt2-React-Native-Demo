@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "sample-tvOS.app"
-               BlueprintName = "sample-tvOS"
-               ReferencedContainer = "container:sample.xcodeproj">
+               BuildableName = "VoiceitReactNativeDemo-tvOS.app"
+               BlueprintName = "VoiceitReactNativeDemo-tvOS"
+               ReferencedContainer = "container:VoiceitReactNativeDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "sample-tvOSTests.xctest"
-               BlueprintName = "sample-tvOSTests"
-               ReferencedContainer = "container:sample.xcodeproj">
+               BuildableName = "VoiceitReactNativeDemo-tvOSTests.xctest"
+               BlueprintName = "VoiceitReactNativeDemo-tvOSTests"
+               ReferencedContainer = "container:VoiceitReactNativeDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "sample-tvOS.app"
-            BlueprintName = "sample-tvOS"
-            ReferencedContainer = "container:sample.xcodeproj">
+            BuildableName = "VoiceitReactNativeDemo-tvOS.app"
+            BlueprintName = "VoiceitReactNativeDemo-tvOS"
+            ReferencedContainer = "container:VoiceitReactNativeDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "sample-tvOS.app"
-            BlueprintName = "sample-tvOS"
-            ReferencedContainer = "container:sample.xcodeproj">
+            BuildableName = "VoiceitReactNativeDemo-tvOS.app"
+            BlueprintName = "VoiceitReactNativeDemo-tvOS"
+            ReferencedContainer = "container:VoiceitReactNativeDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

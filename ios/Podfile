@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'sample' do
+target 'VoiceitReactNativeDemo' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
@@ -14,7 +14,7 @@ target 'sample' do
 
   pod "VoiceItApi2IosSDK"
 
-  target 'sampleTests' do
+  target 'VoiceitReactNativeDemoTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -29,10 +29,10 @@ target 'sample' do
   end
 end
 
-target 'sample-tvOS' do
-  # Pods for sample-tvOS
+target 'VoiceitReactNativeDemo-tvOS' do
+  # Pods for VoiceitReactNativeDemo-tvOS
 
-  target 'sample-tvOSTests' do
+  target 'VoiceitReactNativeDemo-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

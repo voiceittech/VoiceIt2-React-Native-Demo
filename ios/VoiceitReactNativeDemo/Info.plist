@@ -9,7 +9,7 @@
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app requires to access your microphone for biometric services</string>
 	<key>CFBundleDisplayName</key>
-	<string>sample</string>
+	<string>Voiceit React Native Demo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

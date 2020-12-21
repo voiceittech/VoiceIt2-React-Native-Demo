@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sampleTests.m */; };
-		0A167DDC16334694A3003EE7 /* libPods-sample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B66FF9D8327BE11929CCE3 /* libPods-sample-tvOS.a */; };
+		00E356F31AD99517003FC87E /* VoiceitReactNativeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VoiceitReactNativeDemoTests.m */; };
+		0A167DDC16334694A3003EE7 /* libPods-VoiceitReactNativeDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B66FF9D8327BE11929CCE3 /* libPods-VoiceitReactNativeDemo-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1B800E638A8D7CEB008BFD82 /* libPods-sample-sampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 773FCC537EB256A8EE233115 /* libPods-sample-sampleTests.a */; };
+		1B800E638A8D7CEB008BFD82 /* libPods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 773FCC537EB256A8EE233115 /* libPods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sampleTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* VoiceitReactNativeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VoiceitReactNativeDemoTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		D67A8A8DD3F74A4E573A2B1A /* libPods-sample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 348408BC9E4F17965F1AE799 /* libPods-sample-tvOSTests.a */; };
-		E0CB35D8CE9DACCCF0D33221 /* libPods-sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95119AF5F8374BB74EC9C7A1 /* libPods-sample.a */; };
+		D67A8A8DD3F74A4E573A2B1A /* libPods-VoiceitReactNativeDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 348408BC9E4F17965F1AE799 /* libPods-VoiceitReactNativeDemo-tvOSTests.a */; };
+		E0CB35D8CE9DACCCF0D33221 /* libPods-VoiceitReactNativeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95119AF5F8374BB74EC9C7A1 /* libPods-VoiceitReactNativeDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = sample;
+			remoteInfo = VoiceitReactNativeDemo;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "sample-tvOS";
+			remoteInfo = "VoiceitReactNativeDemo-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* VoiceitReactNativeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceitReactNativeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sample/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = sample/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = sample/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sample/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sample/main.m; sourceTree = "<group>"; };
-		1B900D965901F499916CFE7E /* Pods-sample-sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-sampleTests.release.xcconfig"; path = "Target Support Files/Pods-sample-sampleTests/Pods-sample-sampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		1CF3BEFDB6CF9EDB20C78440 /* Pods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.debug.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* sample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* sample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		348408BC9E4F17965F1AE799 /* libPods-sample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F4CD53F29A5102CDDCFBE70 /* Pods-sample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-sample-tvOS/Pods-sample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		773FCC537EB256A8EE233115 /* libPods-sample-sampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample-sampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D3DBCCBBCC64A51260824A9 /* Pods-sample-sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-sampleTests.debug.xcconfig"; path = "Target Support Files/Pods-sample-sampleTests/Pods-sample-sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E89377E7A96FE870B6C91DE /* Pods-sample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-sample-tvOS/Pods-sample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9483C06EC89CCDF0FC09152E /* Pods-sample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-sample-tvOSTests/Pods-sample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		95119AF5F8374BB74EC9C7A1 /* libPods-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C88AE85F3E1EE222DD8C1BFD /* Pods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.release.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.release.xcconfig"; sourceTree = "<group>"; };
-		E147DB8A97E0F3D75ED62DE5 /* Pods-sample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-sample-tvOSTests/Pods-sample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E5B66FF9D8327BE11929CCE3 /* libPods-sample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* VoiceitReactNativeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceitReactNativeDemoTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* VoiceitReactNativeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceitReactNativeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VoiceitReactNativeDemo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VoiceitReactNativeDemo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VoiceitReactNativeDemo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VoiceitReactNativeDemo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VoiceitReactNativeDemo/main.m; sourceTree = "<group>"; };
+		1B900D965901F499916CFE7E /* Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.release.xcconfig"; path = "Target Support Files/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CF3BEFDB6CF9EDB20C78440 /* Pods-VoiceitReactNativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceitReactNativeDemo.debug.xcconfig"; path = "Target Support Files/Pods-VoiceitReactNativeDemo/Pods-VoiceitReactNativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoiceitReactNativeDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VoiceitReactNativeDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348408BC9E4F17965F1AE799 /* libPods-VoiceitReactNativeDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceitReactNativeDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4CD53F29A5102CDDCFBE70 /* Pods-VoiceitReactNativeDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceitReactNativeDemo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VoiceitReactNativeDemo-tvOS/Pods-VoiceitReactNativeDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		773FCC537EB256A8EE233115 /* libPods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3DBCCBBCC64A51260824A9 /* Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E89377E7A96FE870B6C91DE /* Pods-VoiceitReactNativeDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceitReactNativeDemo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VoiceitReactNativeDemo-tvOS/Pods-VoiceitReactNativeDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VoiceitReactNativeDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9483C06EC89CCDF0FC09152E /* Pods-VoiceitReactNativeDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceitReactNativeDemo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VoiceitReactNativeDemo-tvOSTests/Pods-VoiceitReactNativeDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		95119AF5F8374BB74EC9C7A1 /* libPods-VoiceitReactNativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceitReactNativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88AE85F3E1EE222DD8C1BFD /* Pods-VoiceitReactNativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceitReactNativeDemo.release.xcconfig"; path = "Target Support Files/Pods-VoiceitReactNativeDemo/Pods-VoiceitReactNativeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E147DB8A97E0F3D75ED62DE5 /* Pods-VoiceitReactNativeDemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceitReactNativeDemo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VoiceitReactNativeDemo-tvOSTests/Pods-VoiceitReactNativeDemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5B66FF9D8327BE11929CCE3 /* libPods-VoiceitReactNativeDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceitReactNativeDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B800E638A8D7CEB008BFD82 /* libPods-sample-sampleTests.a in Frameworks */,
+				1B800E638A8D7CEB008BFD82 /* libPods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0CB35D8CE9DACCCF0D33221 /* libPods-sample.a in Frameworks */,
+				E0CB35D8CE9DACCCF0D33221 /* libPods-VoiceitReactNativeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A167DDC16334694A3003EE7 /* libPods-sample-tvOS.a in Frameworks */,
+				0A167DDC16334694A3003EE7 /* libPods-VoiceitReactNativeDemo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D67A8A8DD3F74A4E573A2B1A /* libPods-sample-tvOSTests.a in Frameworks */,
+				D67A8A8DD3F74A4E573A2B1A /* libPods-VoiceitReactNativeDemo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* sampleTests */ = {
+		00E356EF1AD99517003FC87E /* VoiceitReactNativeDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* sampleTests.m */,
+				00E356F21AD99517003FC87E /* VoiceitReactNativeDemoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = sampleTests;
+			path = VoiceitReactNativeDemoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* sample */ = {
+		13B07FAE1A68108700A75B9A /* VoiceitReactNativeDemo */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = sample;
+			name = VoiceitReactNativeDemo;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				95119AF5F8374BB74EC9C7A1 /* libPods-sample.a */,
-				773FCC537EB256A8EE233115 /* libPods-sample-sampleTests.a */,
-				E5B66FF9D8327BE11929CCE3 /* libPods-sample-tvOS.a */,
-				348408BC9E4F17965F1AE799 /* libPods-sample-tvOSTests.a */,
+				95119AF5F8374BB74EC9C7A1 /* libPods-VoiceitReactNativeDemo.a */,
+				773FCC537EB256A8EE233115 /* libPods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.a */,
+				E5B66FF9D8327BE11929CCE3 /* libPods-VoiceitReactNativeDemo-tvOS.a */,
+				348408BC9E4F17965F1AE799 /* libPods-VoiceitReactNativeDemo-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* sample */,
+				13B07FAE1A68108700A75B9A /* VoiceitReactNativeDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* sampleTests */,
+				00E356EF1AD99517003FC87E /* VoiceitReactNativeDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				B07A819F040CF209EDD91410 /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* sample.app */,
-				00E356EE1AD99517003FC87E /* sampleTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* sample-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* sample-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* VoiceitReactNativeDemo.app */,
+				00E356EE1AD99517003FC87E /* VoiceitReactNativeDemoTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		B07A819F040CF209EDD91410 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1CF3BEFDB6CF9EDB20C78440 /* Pods-sample.debug.xcconfig */,
-				C88AE85F3E1EE222DD8C1BFD /* Pods-sample.release.xcconfig */,
-				7D3DBCCBBCC64A51260824A9 /* Pods-sample-sampleTests.debug.xcconfig */,
-				1B900D965901F499916CFE7E /* Pods-sample-sampleTests.release.xcconfig */,
-				6F4CD53F29A5102CDDCFBE70 /* Pods-sample-tvOS.debug.xcconfig */,
-				7E89377E7A96FE870B6C91DE /* Pods-sample-tvOS.release.xcconfig */,
-				E147DB8A97E0F3D75ED62DE5 /* Pods-sample-tvOSTests.debug.xcconfig */,
-				9483C06EC89CCDF0FC09152E /* Pods-sample-tvOSTests.release.xcconfig */,
+				1CF3BEFDB6CF9EDB20C78440 /* Pods-VoiceitReactNativeDemo.debug.xcconfig */,
+				C88AE85F3E1EE222DD8C1BFD /* Pods-VoiceitReactNativeDemo.release.xcconfig */,
+				7D3DBCCBBCC64A51260824A9 /* Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.debug.xcconfig */,
+				1B900D965901F499916CFE7E /* Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.release.xcconfig */,
+				6F4CD53F29A5102CDDCFBE70 /* Pods-VoiceitReactNativeDemo-tvOS.debug.xcconfig */,
+				7E89377E7A96FE870B6C91DE /* Pods-VoiceitReactNativeDemo-tvOS.release.xcconfig */,
+				E147DB8A97E0F3D75ED62DE5 /* Pods-VoiceitReactNativeDemo-tvOSTests.debug.xcconfig */,
+				9483C06EC89CCDF0FC09152E /* Pods-VoiceitReactNativeDemo-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* sampleTests */ = {
+		00E356ED1AD99517003FC87E /* VoiceitReactNativeDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sampleTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VoiceitReactNativeDemoTests" */;
 			buildPhases = (
 				8995884C02C0C65DEC84508E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = sampleTests;
-			productName = sampleTests;
-			productReference = 00E356EE1AD99517003FC87E /* sampleTests.xctest */;
+			name = VoiceitReactNativeDemoTests;
+			productName = VoiceitReactNativeDemoTests;
+			productReference = 00E356EE1AD99517003FC87E /* VoiceitReactNativeDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* sample */ = {
+		13B07F861A680F5B00A75B9A /* VoiceitReactNativeDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sample" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VoiceitReactNativeDemo" */;
 			buildPhases = (
 				B584802011529649378382F5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -236,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = sample;
-			productName = sample;
-			productReference = 13B07F961A680F5B00A75B9A /* sample.app */;
+			name = VoiceitReactNativeDemo;
+			productName = VoiceitReactNativeDemo;
+			productReference = 13B07F961A680F5B00A75B9A /* VoiceitReactNativeDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* sample-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sample-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VoiceitReactNativeDemo-tvOS" */;
 			buildPhases = (
 				E706C1FA63E82FEF9C038E0F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -256,14 +256,14 @@
 			);
 			dependencies = (
 			);
-			name = "sample-tvOS";
-			productName = "sample-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* sample-tvOS.app */;
+			name = "VoiceitReactNativeDemo-tvOS";
+			productName = "VoiceitReactNativeDemo-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* sample-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sample-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VoiceitReactNativeDemo-tvOSTests" */;
 			buildPhases = (
 				D42063B599C7C8739598110B /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -275,9 +275,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "sample-tvOSTests";
-			productName = "sample-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* sample-tvOSTests.xctest */;
+			name = "VoiceitReactNativeDemo-tvOSTests";
+			productName = "VoiceitReactNativeDemo-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "sample" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VoiceitReactNativeDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* sample */,
-				00E356ED1AD99517003FC87E /* sampleTests */,
-				2D02E47A1E0B4A5D006451C7 /* sample-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* sample-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* VoiceitReactNativeDemo */,
+				00E356ED1AD99517003FC87E /* VoiceitReactNativeDemoTests */,
+				2D02E47A1E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-sampleTests/Pods-sample-sampleTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/VoiceItApi2IosSDK/VoiceItApi2IosSDK.bundle",
 			);
@@ -394,7 +394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample-sampleTests/Pods-sample-sampleTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -426,7 +426,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sample-sampleTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -448,7 +448,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VoiceitReactNativeDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,7 +470,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sample-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VoiceitReactNativeDemo-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -492,7 +492,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sample-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VoiceitReactNativeDemo-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -505,7 +505,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample/Pods-sample-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceitReactNativeDemo/Pods-VoiceitReactNativeDemo-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/VoiceItApi2IosSDK/VoiceItApi2IosSDK.bundle",
 			);
@@ -516,7 +516,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample/Pods-sample-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceitReactNativeDemo/Pods-VoiceitReactNativeDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -564,7 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* sampleTests.m in Sources */,
+				00E356F31AD99517003FC87E /* VoiceitReactNativeDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,7 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* sampleTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* VoiceitReactNativeDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,12 +599,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* sample */;
+			target = 13B07F861A680F5B00A75B9A /* VoiceitReactNativeDemo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* sample-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* VoiceitReactNativeDemo-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -612,14 +612,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D3DBCCBBCC64A51260824A9 /* Pods-sample-sampleTests.debug.xcconfig */;
+			baseConfigurationReference = 7D3DBCCBBCC64A51260824A9 /* Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = sampleTests/Info.plist;
+				INFOPLIST_FILE = VoiceitReactNativeDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -629,17 +629,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample.app/sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceitReactNativeDemo.app/VoiceitReactNativeDemo";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B900D965901F499916CFE7E /* Pods-sample-sampleTests.release.xcconfig */;
+			baseConfigurationReference = 1B900D965901F499916CFE7E /* Pods-VoiceitReactNativeDemo-VoiceitReactNativeDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = sampleTests/Info.plist;
+				INFOPLIST_FILE = VoiceitReactNativeDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -649,20 +649,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample.app/sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceitReactNativeDemo.app/VoiceitReactNativeDemo";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CF3BEFDB6CF9EDB20C78440 /* Pods-sample.debug.xcconfig */;
+			baseConfigurationReference = 1CF3BEFDB6CF9EDB20C78440 /* Pods-VoiceitReactNativeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VS9YK7ML83;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = sample/Info.plist;
+				INFOPLIST_FILE = VoiceitReactNativeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -671,7 +671,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = sample;
+				PRODUCT_NAME = VoiceitReactNativeDemo;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -680,13 +680,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C88AE85F3E1EE222DD8C1BFD /* Pods-sample.release.xcconfig */;
+			baseConfigurationReference = C88AE85F3E1EE222DD8C1BFD /* Pods-VoiceitReactNativeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VS9YK7ML83;
-				INFOPLIST_FILE = sample/Info.plist;
+				INFOPLIST_FILE = VoiceitReactNativeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -695,7 +695,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = sample;
+				PRODUCT_NAME = VoiceitReactNativeDemo;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -703,7 +703,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F4CD53F29A5102CDDCFBE70 /* Pods-sample-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6F4CD53F29A5102CDDCFBE70 /* Pods-VoiceitReactNativeDemo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -714,14 +714,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "sample-tvOS/Info.plist";
+				INFOPLIST_FILE = "VoiceitReactNativeDemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.sample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VoiceitReactNativeDemo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -731,7 +731,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E89377E7A96FE870B6C91DE /* Pods-sample-tvOS.release.xcconfig */;
+			baseConfigurationReference = 7E89377E7A96FE870B6C91DE /* Pods-VoiceitReactNativeDemo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -742,14 +742,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "sample-tvOS/Info.plist";
+				INFOPLIST_FILE = "VoiceitReactNativeDemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.sample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VoiceitReactNativeDemo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -759,7 +759,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E147DB8A97E0F3D75ED62DE5 /* Pods-sample-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = E147DB8A97E0F3D75ED62DE5 /* Pods-VoiceitReactNativeDemo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -769,24 +769,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "sample-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "VoiceitReactNativeDemo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.sample-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VoiceitReactNativeDemo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-tvOS.app/sample-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceitReactNativeDemo-tvOS.app/VoiceitReactNativeDemo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9483C06EC89CCDF0FC09152E /* Pods-sample-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 9483C06EC89CCDF0FC09152E /* Pods-VoiceitReactNativeDemo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -796,17 +796,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "sample-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "VoiceitReactNativeDemo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.sample-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VoiceitReactNativeDemo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-tvOS.app/sample-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceitReactNativeDemo-tvOS.app/VoiceitReactNativeDemo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -927,7 +927,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sampleTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VoiceitReactNativeDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -936,7 +936,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sample" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VoiceitReactNativeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -945,7 +945,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sample-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VoiceitReactNativeDemo-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -954,7 +954,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sample-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VoiceitReactNativeDemo-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -963,7 +963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "sample" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VoiceitReactNativeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

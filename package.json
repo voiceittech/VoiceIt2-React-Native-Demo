@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "Voiceit-React-Native-Demo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,10 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@react-native-community/checkbox": "^0.5.6",
     "react": "16.13.1",
     "react-native": "0.63.4",
-    "react-native-voiceit": "react-native-voiceit"
+    "@react-native-community/checkbox": "^0.5.6",
+    "react-native-voiceit": "1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
