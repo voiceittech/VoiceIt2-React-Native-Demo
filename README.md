@@ -18,7 +18,9 @@ const options = {
   ```
 - run ```react-native run-ios``` (make sure to cd into ios folder and run ```pod install``` before) or ```react-native run-android``` depending on your device
 - IOS Screenshot
-![IOS Screenshot](/res/ios.png)
+<br>
+<img src="/res/ios.jpeg" width=300px></img>
 - Android Screenshot
-![Android Screenshot](/res/android.png)
+<br>
+<img src="/res/android.png" width=300px></img>
 
