@@ -6,6 +6,8 @@
 	<string>en</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app requires to access your camera for biometric services</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app requires to access your microphone for biometric services</string>
 	<key>CFBundleDisplayName</key>
