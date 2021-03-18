@@ -236,9 +236,9 @@ PODS:
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
   - React-jsinspector (0.63.4)
-  - react-native-voiceit (1.0.0):
+  - react-native-voiceit (1.1.1):
     - React
-    - VoiceItApi2IosSDK (~> 2.1.5)
+    - VoiceIt2-IosSDK (~> 2.2.5)
   - React-RCTActionSheet (0.63.4):
     - React-Core/RCTActionSheetHeaders (= 0.63.4)
   - React-RCTAnimation (0.63.4):
@@ -301,7 +301,7 @@ PODS:
     - React-jsi (= 0.63.4)
   - RNCCheckbox (0.5.6):
     - React-Core
-  - VoiceItApi2IosSDK (2.1.5)
+  - VoiceIt2-IosSDK (2.2.5)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -355,7 +355,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCCheckbox (from `../node_modules/@react-native-community/checkbox`)"
-  - VoiceItApi2IosSDK
+  - VoiceIt2-IosSDK (~> 2.2.5)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -371,7 +371,7 @@ SPEC REPOS:
     - Flipper-RSocket
     - FlipperKit
     - OpenSSL-Universal
-    - VoiceItApi2IosSDK
+    - VoiceIt2-IosSDK
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -459,7 +459,7 @@ SPEC CHECKSUMS:
   React-jsi: a0418934cf48f25b485631deb27c64dc40fb4c31
   React-jsiexecutor: 93bd528844ad21dc07aab1c67cb10abae6df6949
   React-jsinspector: 58aef7155bc9a9683f5b60b35eccea8722a4f53a
-  react-native-voiceit: 7b81aa2e670dfe0bdc1a1b125e5291db3a4bf932
+  react-native-voiceit: f13dc7bd88b2af1c71081f6daa45b51739fd5e03
   React-RCTActionSheet: 89a0ca9f4a06c1f93c26067af074ccdce0f40336
   React-RCTAnimation: 1bde3ecc0c104c55df246eda516e0deb03c4e49b
   React-RCTBlob: a97d378b527740cc667e03ebfa183a75231ab0f0
@@ -471,10 +471,10 @@ SPEC CHECKSUMS:
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
   RNCCheckbox: 0fa612ce146445b80efde233dab96602faf67d31
-  VoiceItApi2IosSDK: c3b65e2a3a384eaef4b5dd06d22adca44ee17f47
+  VoiceIt2-IosSDK: 4eff1403a92b94c42dda90757650de95580a30ad
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 207fd1d2f5875427cec42989fc3423a270ae403c
+PODFILE CHECKSUM: 44867fa9400e316bd9a1deaf83e7172a1dc555f5
 
 COCOAPODS: 1.10.0
