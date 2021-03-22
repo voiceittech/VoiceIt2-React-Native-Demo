@@ -1,10 +1,11 @@
 {
   "name": "Voiceit-React-Native-Demo",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.1",
+  "private": false,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios --configuration Release --device",
+    "android_make_bundle": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
@@ -13,7 +14,7 @@
     "react": "16.13.1",
     "react-native": "0.63.4",
     "@react-native-community/checkbox": "^0.5.6",
-    "react-native-voiceit": "^1.1.1"
+    "react-native-voiceit": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
