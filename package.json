@@ -14,7 +14,7 @@
     "@react-native-community/checkbox": "^0.5.6",
     "react": "16.13.1",
     "react-native": "0.63.4",
-    "react-native-voiceit": "^1.1.5"
+    "react-native-voiceit": "file:VoiceIt2-React-Native-SDK"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

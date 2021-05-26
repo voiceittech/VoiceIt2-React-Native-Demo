@@ -8,7 +8,7 @@ const voiceItModule = NativeModules.Voiceit;
 const options = {
   user_id: "USER_ID_HERE",
   group_id: "GROUP_ID_HERE",
-  content_language: "CONTENT_LANGUAGE_HERE",
+  content_language: "en-US",
   phrase: "PHRASE",
   apiKey: "API_KEY_HERE",
   apiToken: "API_TOKEN_HERE",
@@ -35,12 +35,7 @@ export default class App extends Component{
       <View style={styles.buttonPanel}>
       <CheckBox
       disabled={false}
-      // activeOpacity = {.7}
-      // checkedIcon='dot-circle-o'
-      // uncheckedIcon='circle-o'
-      // title='Liveness Detection'
       value={this.state.checked}
-      // wrapperStyle={styles.checkbox}
       onValueChange={()=>{this.setState({ checked: !this.state.checked });}}
       />
       <Button
@@ -80,31 +75,40 @@ export default class App extends Component{
 
  class Action extends Component {
   enrollVoice(callback){
-    voiceItModule.encapsulatedVoiceEnrollment(options.user_id,options.content_language, options.phrase, (res)=>{callback(res);});
+    voiceItModule.encapsulatedVoiceEnrollment(options.user_id,options.content_language, options.phrase,
+      (successResponse)=>{callback(successResponse);},
+      (failuerResponse)=>{callback(failuerResponse);}
+    );
   }
   verifyVoice(callback){
-    voiceItModule.encapsulatedVoiceVerification(options.user_id,options.content_language, options.phrase, (res)=>{callback(res);});
-  }
-  identifyVoice(callback){
-    voiceItModule.encapsulatedVoiceIdentification(options.group_id,options.content_language, options.phrase, (res)=>{callback(res);});
+    voiceItModule.encapsulatedVoiceVerification(options.user_id,options.content_language, options.phrase,
+      (successResponse)=>{callback(successResponse);},
+      (failuerResponse)=>{callback(failuerResponse);}
+    );
   }
   enrollFace(callback){
-      voiceItModule.encapsulatedFaceEnrollment(options.user_id,(res)=>{callback(res);});
+      voiceItModule.encapsulatedFaceEnrollment(options.user_id,
+      (successResponse)=>{callback(successResponse);},
+      (failuerResponse)=>{callback(failuerResponse);}
+    );
   }
   verifyFace(callback){
-      voiceItModule.encapsulatedFaceVerification(options.user_id,options.content_language, this.props.liveness,this.props.audioLiveness, (res)=>{callback(res);});
-  }
-  identifyFace(callback){
-      voiceItModule.encapsulatedFaceIdentification(options.group_id,this.props.liveness,(res)=>{callback(res);});
+      voiceItModule.encapsulatedFaceVerification(options.user_id,options.content_language, this.props.liveness,this.props.audioLiveness,
+      (successResponse)=>{callback(successResponse);},
+      (failuerResponse)=>{callback(failuerResponse);}
+    );
   }
   enrollVideo(callback){
-    voiceItModule.encapsulatedVideoEnrollment(options.user_id,options.content_language, options.phrase,(res)=>{callback(res);});
+    voiceItModule.encapsulatedVideoEnrollment(options.user_id,options.content_language, options.phrase,
+      (successResponse)=>{callback(successResponse);},
+      (failuerResponse)=>{callback(failuerResponse);}
+    );
   }
   verifyVideo(callback){
-    voiceItModule.encapsulatedVideoVerification(options.user_id,options.content_language, options.phrase, this.props.liveness,this.props.audioLiveness, (res)=>{callback(res);});
-  }
-  identifyVideo(callback){
-    voiceItModule.encapsulatedVideoIdentification(options.group_id,options.content_language,this.props.liveness, options.phrase,(res)=>{callback(res);});
+    voiceItModule.encapsulatedVideoVerification(options.user_id,options.content_language, options.phrase, this.props.liveness,this.props.audioLiveness,
+      (successResponse)=>{callback(successResponse);},
+      (failuerResponse)=>{callback(failuerResponse);}
+    );
   }
   resolveEnrollment(index, callback){
     if (index == 0){
@@ -122,15 +126,6 @@ export default class App extends Component{
       this.verifyFace((res)=>{callback(res);});
     } else {
       this.verifyVideo((res)=>{callback(res);});
-    }
-  }
-  resolveIdentification(index, callback){
-    if (index == 0){
-      this.identifyVoice((res)=>{callback(res);});
-    } else if (index == 1){
-      this.identifyFace((res)=>{callback(res);});
-    } else {
-      this.identifyVideo((res)=>{callback(res);});
     }
   }
   render() {
@@ -154,17 +149,6 @@ export default class App extends Component{
            <Text style={{color:'#000000'}}>Verification</Text>
           </TouchableOpacity>
           </View>
-          <View>
-          {options.group_id == "" ? null  : options.group_id.substring(0,4) == "grp_" ?
-            <TouchableOpacity
-              activeOpacity = {.5}
-              style={[styles.button]}
-              onPress={() => this.resolveIdentification(this.props.index, (res)=>{console.log(res);})}
-              >
-             <Text style={{color:'#000000'}}>Identification</Text>
-            </TouchableOpacity> : null
-          }
-            </View>
       </View>
   );
 }
