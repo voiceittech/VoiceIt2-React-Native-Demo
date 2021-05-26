@@ -16,11 +16,47 @@ const options = {
   liveness: false
   };
   ```
-- run ```react-native run-ios``` (make sure to cd into ios folder and run ```pod install``` before) or ```react-native run-android``` depending on your device
+
+## Troubleshooting and Build Process
+
+#### 
+
+#### Android Debug Bridge 
+
+Adb can be a useful build tool for Android React Native development and troubleshooting. Add the following to your path by exporting to bashrc (zshrc):
+```
+export PATH=/Users/hasssan/Library/Android/sdk/platform-tools:$PATH
+```
+
+#### Running on Android Device 
+Make sure there is a local.properties file in the android/ directory. It should have the sdk directory: 
+```
+sdk.dir = /Users/YOUR_USER_NAME/Library/Android/sdk
+```
+Connect your device and get the device id 
+```
+adb devices
+```
+Use the device id to run on your physical device 
+```
+npx react-native run-android --deviceId=DEVICE_ID
+```
+
+#### Running on IOS Device 
+Connect your device and unlock it 
+```
+npx react-native run-ios --device
+```
+
+
+
 - IOS Screenshot
 <br>
 <img src="/res/ios.jpeg" width=300px></img>
 - Android Screenshot
 <br>
 <img src="/res/android.png" width=300px></img>
+
+
+
 
