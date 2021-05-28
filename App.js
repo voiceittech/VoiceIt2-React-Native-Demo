@@ -77,37 +77,37 @@ export default class App extends Component{
   enrollVoice(callback){
     voiceItModule.encapsulatedVoiceEnrollment(options.user_id,options.content_language, options.phrase,
       (successResponse)=>{callback(successResponse);},
-      (failuerResponse)=>{callback(failuerResponse);}
+      (failureResponse)=>{callback(failureResponse);}
     );
   }
   verifyVoice(callback){
     voiceItModule.encapsulatedVoiceVerification(options.user_id,options.content_language, options.phrase,
       (successResponse)=>{callback(successResponse);},
-      (failuerResponse)=>{callback(failuerResponse);}
+      (failureResponse)=>{callback(failureResponse);}
     );
   }
   enrollFace(callback){
       voiceItModule.encapsulatedFaceEnrollment(options.user_id,
       (successResponse)=>{callback(successResponse);},
-      (failuerResponse)=>{callback(failuerResponse);}
+      (failureResponse)=>{callback(failureResponse);}
     );
   }
   verifyFace(callback){
       voiceItModule.encapsulatedFaceVerification(options.user_id,options.content_language, this.props.liveness,this.props.audioLiveness,
       (successResponse)=>{callback(successResponse);},
-      (failuerResponse)=>{callback(failuerResponse);}
+      (failureResponse)=>{callback(failureResponse);}
     );
   }
   enrollVideo(callback){
     voiceItModule.encapsulatedVideoEnrollment(options.user_id,options.content_language, options.phrase,
       (successResponse)=>{callback(successResponse);},
-      (failuerResponse)=>{callback(failuerResponse);}
+      (failureResponse)=>{callback(failureResponse);}
     );
   }
   verifyVideo(callback){
     voiceItModule.encapsulatedVideoVerification(options.user_id,options.content_language, options.phrase, this.props.liveness,this.props.audioLiveness,
       (successResponse)=>{callback(successResponse);},
-      (failuerResponse)=>{callback(failuerResponse);}
+      (failureResponse)=>{callback(failureResponse);}
     );
   }
   resolveEnrollment(index, callback){
