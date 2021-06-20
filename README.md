@@ -42,6 +42,12 @@ Use the device id to run on your physical device
 npx react-native run-android --deviceId=DEVICE_ID
 ```
 
+Depending on your react version, you might need to bundle the JS side to so it can be taken in by native Android (make sure the android/app/src/main/assets folder exists): 
+
+```
+react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+```
+
 #### Running on IOS Device 
 Connect your device and unlock it 
 ```
