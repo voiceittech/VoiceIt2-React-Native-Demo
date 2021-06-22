@@ -8,7 +8,7 @@ const voiceItModule = NativeModules.Voiceit;
 const options = {
   user_id: "USER_ID_HERE",
   group_id: "GROUP_ID_HERE",
-  content_language: "en-US",
+  content_language: "CONTENT_LANGUAGE_HERE",
   phrase: "PHRASE",
   apiKey: "API_KEY_HERE",
   apiToken: "API_TOKEN_HERE",
